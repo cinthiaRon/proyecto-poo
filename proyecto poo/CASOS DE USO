@@ -5,11 +5,15 @@ CASOS DE USO DEL POYECTO
 curso los instructores que desarrollaran el mismo y cumplen con los requisitos necesarios para transmitir
 el conocimiento a los cliente.
 (VERSION) 0.1
+(PRECONDICION) El numero de intructores no debe ser mayor a la cantidad de clases que incluye el curso,
+ya que un instructor puede impartir multiples clases pero dos instructores no dan la misma clase.
+
   Tomando en cuenta las habilidades que posee cada unos de los instructores que posee la institucion,
   son evaluados para ver si cumplen con las capacidades necesarias para impartir el curso propuesto
   a los clientes, una vez visto de esta manera se procede a selecionar y separar del resto los instructores
   calificados, se prosigue a conseder a cada uno los derechos de la materia a impartir y oficializarlo en
   la oferta academica que se realiza para el cliente.
+  
   EXCEPCIONES:
     1 No hay cliente interesados
     2 No hay instructores disponibles
@@ -21,12 +25,15 @@ el conocimiento a los cliente.
 (DESCRIPCION) En este caso se especifica el proceso que se lleva a cabo al momento de asignar a cada 
 instructor los temas que debe desarrollar para el curso.
 (VERSION) 0.1
+(PRECONDICION) No debe existir tema sin instructor asignado.
+
   Según la empresa varios instructores pueden impartir un curso, ya sea con el mismo tema o diferente.
   En primer lugar, se debe organizar los temas que se impartirán para seleccionar que instructor o 
   instructores son los más adecuados para enseñar los temas a los clientes, Los  instructores tienen 
   que prepararse para que se familiaricen con los temas y los manejen con facilidad y sean capaces 
   de contestar dudas que los clientes vayan adquiriendo a medida que transcurre el curso.
-  EXCEPCIONES:
+
+EXCEPCIONES:
     1 Instructor no maneja el tema a cabalidad
     2 Ningun instructor cumple los requisitos
     3 Coordinacion en fondo y forma al momento de desarrollar los temas por distintos instructores
@@ -35,6 +42,8 @@ instructor los temas que debe desarrollar para el curso.
 (DESCRIPCION) En este caso se especifica el proceso que se lleva a cabo al momento de realizar la verificacion
 de un certificado obtenido por cliente, mismo que se desenvuelve por via telefonica.
 (VERSION) 0.1
+(PRECONDICION) Unicamente se comprueban certificados por via telefonica-
+
   La empresa Aprendamos debe verificar si cada estudiante inscrito en los diferentes 
   cursos cumple con los requisitos para obtener la certificacion.
   para obtener el certificado debe cumplir con ciertos requisitos como:
@@ -47,7 +56,8 @@ de un certificado obtenido por cliente, mismo que se desenvuelve por via telefon
   que pueda tener cada registro de los estudiantes que pudieron obtener la certificacion 
   de curso que tomaron el cual los estudiantes podran verificar por via telefonica si
   obtuvo la certificacion y su originalida.
-  EXCEPCIONES:
+
+EXCEPCIONES:
     1 Codigo de certificado incorrecto
     2 Diferente nombre
     3 Datos no ingresados en sistema
