@@ -1,29 +1,55 @@
 CASOS DE USO DEL POYECTO
 
 **1 ASIGNACION DE INSTRUCTORES A LOS CURSOS**
+(DESCRIPCION) En este caso se especifica el proceso que se lleva a cabo al momento de asignar a cada 
+curso los instructores que desarrollaran el mismo y cumplen con los requisitos necesarios para transmitir
+el conocimiento a los cliente.
+(VERSION) 0.1
   Tomando en cuenta las habilidades que posee cada unos de los instructores que posee la institucion,
   son evaluados para ver si cumplen con las capacidades necesarias para impartir el curso propuesto
   a los clientes, una vez visto de esta manera se procede a selecionar y separar del resto los instructores
   calificados, se prosigue a conseder a cada uno los derechos de la materia a impartir y oficializarlo en
   la oferta academica que se realiza para el cliente.
+  EXCEPCIONES:
+    1 No hay cliente interesados
+    2 No hay instructores disponibles
+    3 No se ha registrado rubrica del curso
+    4 No se cuenta con la locacion para impartir la materia
+    5 No se cuenta con los materiales
   
 **2 ASIGNACION DE TEMAS A IMPARTIR POR INSTRUCTOR**
+(DESCRIPCION) En este caso se especifica el proceso que se lleva a cabo al momento de asignar a cada 
+instructor los temas que debe desarrollar para el curso.
+(VERSION) 0.1
   Según la empresa varios instructores pueden impartir un curso, ya sea con el mismo tema o diferente.
   En primer lugar, se debe organizar los temas que se impartirán para seleccionar que instructor o 
   instructores son los más adecuados para enseñar los temas a los clientes, Los  instructores tienen 
   que prepararse para que se familiaricen con los temas y los manejen con facilidad y sean capaces 
   de contestar dudas que los clientes vayan adquiriendo a medida que transcurre el curso.
+  EXCEPCIONES:
+    1 Instructor no maneja el tema a cabalidad
+    2 Ningun instructor cumple los requisitos
+    3 Coordinacion en fondo y forma al momento de desarrollar los temas por distintos instructores
 
 **3 COMPROBACION DE CERTIFICADOS**
-La empresa Aprendamos deve verificar si cada estudiante inscrito en los diferentes 
-cursos cumple con los requizitos para obtener la certificacion .
-para obtener el certificado debe cumplir con siertos requisitos como:
-   1. Haber aprovado con la nota minima requerida para obtener certificacion.
+(DESCRIPCION) En este caso se especifica el proceso que se lleva a cabo al momento de realizar la verificacion
+de un certificado obtenido por cliente, mismo que se desenvuelve por via telefonica.
+(VERSION) 0.1
+  La empresa Aprendamos debe verificar si cada estudiante inscrito en los diferentes 
+  cursos cumple con los requisitos para obtener la certificacion.
+  para obtener el certificado debe cumplir con ciertos requisitos como:
+   1.Haber aprobado con la nota minima requerida para obtener certificacion.
    2.Tener todo deuda saldada con la empresa 
-   3.Tener papeles  e informacion requeridos en reglas
+   3.Tener papeles e informacion requeridos en reglas
    * una vez cumplido los requisitos se procedera a realizar la certificacion a los que la obtuvieron 
    y para demostrar su valides constara del identificador unico que es propio de la empresa
-y una vez comprovado lo anterios la empresa se encargara de manejar una bases de datos 
-que pueda tener cada registro de los estudiantes que pudieron obtener la certificacion 
-de curso que tomaron el cual los estudiantes podran verificar por medio de la web si
-obtuvo la certificacion y su originalida 
+  y una vez comprobado lo anterior la empresa se encargara de manejar una bases de datos 
+  que pueda tener cada registro de los estudiantes que pudieron obtener la certificacion 
+  de curso que tomaron el cual los estudiantes podran verificar por via telefonica si
+  obtuvo la certificacion y su originalida.
+  EXCEPCIONES:
+    1 Codigo de certificado incorrecto
+    2 Diferente nombre
+    3 Datos no ingresados en sistema
+
+ACTORES: Cliente, Administrador, Instructor.
