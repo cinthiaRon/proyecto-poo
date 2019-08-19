@@ -55,7 +55,7 @@ de un certificado obtenido por cliente, mismo que se desenvuelve por via telefon
   y una vez comprobado lo anterior la empresa se encargara de manejar una bases de datos 
   que pueda tener cada registro de los estudiantes que pudieron obtener la certificacion 
   de curso que tomaron el cual los estudiantes podran verificar por via telefonica si
-  obtuvo la certificacion y su originalida.
+  obtuvo la certificacion y su originalidad.
 
 EXCEPCIONES:
     1 Codigo de certificado incorrecto
