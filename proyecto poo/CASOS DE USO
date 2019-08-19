@@ -8,4 +8,8 @@ CASOS DE USO DEL POYECTO
   la oferta academica que se realiza para el cliente.
   
 **2 ASIGNACION DE TEMAS A IMPARTIR POR INSTRUCTOR**
-  
+  Según la empresa varios instructores pueden impartir un curso, ya sea con el mismo tema o diferente.
+  En primer lugar, se debe organizar los temas que se impartirán para seleccionar que instructor o 
+  instructores son los más adecuados para enseñar los temas a los clientes, Los  instructores tienen 
+  que prepararse para que se familiaricen con los temas y los manejen con facilidad y sean capaces 
+  de contestar dudas que los clientes vayan adquiriendo a medida que transcurre el curso.
