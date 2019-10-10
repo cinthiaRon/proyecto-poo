@@ -1,0 +1,54 @@
+1 TITULO REGISTRO DE INSTRUCTORES
+DESCRIPCION En este caso se especifica el proceso que se lleva a cabo al momento de asignar a cada instructor los temas que debe desarrollar para el curso.
+VERSION 3.0
+PRECONDICION No debe existir tema o curso sin instructor asignado.
+Según la empresa varios instructores pueden impartir un curso, ya sea con el mismo tema o diferente.
+DESARROLLO En primer lugar, se debe organizar los temas que se impartirán para seleccionar que instructor o instructores son los más adecuados para enseñar los temas a los clientes, Los instructores tienen que prepararse para que se familiaricen con los temas y los manejen con facilidad y sean capaces de contestar dudas que los clientes vayan adquiriendo a medida que transcurre el curso.
+EXCEPCIONES:
+    1 Instructor no maneja el tema a cabalidad
+    2 Ningún instructor cumple los requisitos
+    3 Coordinación en fondo y forma al momento de desarrollar los temas por distintos instructores
+ACTORES: Cliente, Administrador, Instructor.
+
+
+2 TITULO INGRESO DE LOCAL
+DESCRIPCION Atrás vez de este caso la empresa logra identificar los lugares propicios para impartir cada curso según los requerimientos pedagógicos y especificaciones de los clientes.
+Cabe denotar que la empresa puede contar con múltiples locales según las sedes y las necesidades específicas de cada clase y el material didáctico a emplear.
+VERSION 3.0
+PRECONDICION Al no cumplir con los requerimientos pedagógicos un local automáticamente no califica para ser sede donde se impartan los cursos.
+Si un local no cumple con las necesidades del cliente el local previsto no es seleccionado para ser impartido el curso contratado.
+DESARROLLO: Se solicitan a los lugares las dimensiones de los locales, se toman en cuenta los puntos estratégicos, la ubicación, conexiones y la capacidad que posee, así se compara con necesidades del cliente y que cumpla con los requisitos pedagógicos regulados por los entes educativos que rigen las condiciones a nivel nacional.
+EXCEPCIONES:
+1.	El local no se da abasto para la cantidad de alumnos
+2.	El local no cumple con los requerimientos del cliente
+3.	El local no cumple los requerimientos pedagógicos establecidos
+4.	El mismo no se cuenta con la disposición para los materiales y herramientas didácticas
+5.	La zona no se encuentra estratégicamente ubicada    
+ACTORES: Cliente, Administrador, Instructor.
+
+
+3 TITULO CREACION DE CURSO
+DESCRIPCION En este caso de uso se especifica cómo debe ser tomado en cuenta según las necesidades verificadas a través de los estudios realizados al medio y la demanda que existe hoy en día de los conocimientos a adquirir para desarrollar las funciones y cumplir con los roles específicos para la apertura de nuevas oportunidades de trabajo.
+VERSION 3.0
+PRECONDICION Para la creación de un curso, son tomados en cuenta estudios sociales, requerimientos del cliente, la globalización y la introducción de nuevas tecnologías, crecimientos y nuevos puestos de trabajo que van surgiendo acorde a las necesidades.
+DESARROLLO En estos casos al administrador se le brindan los datos estadísticos y específicos para generar un nuevo curso, este debe identificar que instructores cumplen con los roles necesitados para impartir los conocimientos y cumplir con lo establecido, para así poder garantizar un aprendizaje que pueda ser certificado su conocimiento adquirido.
+EXCEPCIONES:
+1.	Un curso no es aperturado si no cuenta con los instructores calificados para impartir los temas que conforman el mismo.
+2.	En caso de no contar con los instructores necesarios no se apertura el curso.
+3.	Si no se cuenta con las herramientas didácticas para garantizar el aprendizaje no califica como local para impartir clases.
+4.	Si el local no cumple con las especificaciones del cliente no es determinado local acto para formar parte de un curso.
+ACTORES: Cliente, Administrador, Instructor.
+
+
+4 TITULO ASIGNACION DE INSTRUCTORES A LOS CURSOS
+DESCRIPCION En este caso se especifica el proceso que se lleva a cabo al momento de asignar a cada curso los instructores que desarrollaran el mismo y cumplen con los requisitos necesarios para transmitir el conocimiento a los clientes.
+VERSION 3.0
+PRECONDICION El número de instructores no debe ser mayor a la cantidad de clases que incluye el curso, ya que un instructor puede impartir múltiples clases, pero dos instructores no dan la misma clase.
+DESARROLLO Tomando en cuenta las habilidades que posee cada uno de los instructores que posee la institución, son evaluados para ver si cumplen con las capacidades necesarias para impartir el curso propuesto a los clientes, una vez visto de esta manera se procede a seleccionar y separar del resto los instructores calificados, se prosigue a conceder a cada uno los derechos de la materia a impartir y oficializarlo en la oferta académica que se realiza para el cliente.
+  EXCEPCIONES:
+    1 No hay clientes interesados
+    2 No hay instructores disponibles
+    3 No se ha registrado rúbrica del curso
+    4 No se cuenta con la locación para impartir la materia
+    5 No se cuenta con los materiales
+ACTORES: Cliente, Administrador, Instructor.
