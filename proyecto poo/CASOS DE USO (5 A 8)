@@ -1,0 +1,55 @@
+
+5 TITULO ASIGNACION DE PARTICIPANTES POR CURSO
+DESCRIPCION En este proceso se ingresan los clientes que desean participar del curso
+VERSION 3.0
+PRECONDICION Para poder ser parte de un curso debe estar previamente inscrito en nuestro sistema, una vez así puede optar a seleccionar cualquiera de  nuestros cursos disponibles que desee verificando si las utilidades y conocimientos a adquirir son los que el prospecta a conocer.
+DESARROLLO De este proceso se encarga directamente el sistema, validando que cada uno de los clientes se encuentra inscrito en la plataforma, no debe hacer falta algún dato o pago y debe estar dispuesto a acceder a cada clase y cumplir con los requerimientos mínimos de aprobación del curso para poder así obtener la debida certificación.
+EXCEPCIONES:
+1.	La institución no inscribe a cliente que se encuentren pendientes de pago o de brindar algún dato.
+2.	La institución no da certificación a personas que no cumplan con el requerimiento mínimo establecido para el curso.
+ACTORES: Cliente, Administrador, Instructor.
+
+
+6 TITULO EXPEDICION DE CERTIFICADOS
+DESCRIPCION En este caso se especifica y se emplea el proceso mediante el cual se obtiene por parte del cliente un certificado, debe cumplir los requerimientos mínimos del curso y a su vez no contar con atrasos en cuotas.
+VERSION 3.0
+PRECONDICION Un certificado nunca es brindados personas que no se encuentran registradas en la empresa y no son actualmente cliente de la misma.
+DESARROLLO A través de este proceso se generar varios pequeños procedimientos que van dependiendo cada uno del anterior, de la siguiente forma: 
+1.	Verificación de los datos del usuario y que se encuentren correctos
+2.	Verificación de haber alcanzado los requisitos mínimos del curso
+3.	Verificación de haber cumplido con los pagos de las clases
+4.	Cumplir con la cantidad de horas y asignaciones del curso
+Una vez se ha identificado que los cliente cumplen con todo lo anterior se procede a registrar en sistema la certificación obtenida por el usuario y se notifica, esto procede a ser archivado y luego implementado en forma física y de forma virtual para que el usuario pueda acceder al mismo de forma remota y comprobar su credibilidad.
+EXCEPCIONES:
+1.	Al no cumplir con los requerimientos mínimos no puede optar por una certificación.
+2.	Si no se encuentra al día con los pagos no puede optar a la certificación.
+3.	Si los datos del usuario son incorrectos, fraudulentos o  manipulados, el mismo no puede optar a la certificación.
+4.	En caso de no haber cumplido con la cantidad de horas necesarias el usuario no cumplirá este requisito básico para poder ser certificado.
+5.	En caso de abandono, el usuario no puede optar a certificación.
+ACTORES: Cliente, Administrador, Instructor.
+
+
+7 TITULO COMPROBACION DE CERTIFICADOS
+DESCRIPCION En este caso se especifica el proceso que se lleva a cabo al momento de realizar la verificación de un certificado obtenido por cliente, mismo que se desenvuelve por vía telefónica.
+VERSION 3.0
+PRECONDICION Únicamente se comprueban certificados por vía telefónica
+DESARROLLO La empresa Aprendamos debe verificar si cada estudiante inscrito en los diferentes cursos cumple con los requisitos para obtener la certificación. Para obtener el certificado debe cumplir con ciertos requisitos como:
+   1. Haber aprobado con la nota mínima requerida para obtener certificación.
+   2. Tener todo deuda saldada con la empresa 
+   3. Tener papeles e información requeridos en reglas
+Una vez cumplido los requisitos se procederá a realizar la certificación a los que la obtuvieron y para demostrar su valides constara del identificador único que es propio de la empresa y una vez comprobado lo anterior la empresa se encargará de manejar una base de datos que pueda tener cada registro de los estudiantes que pudieron obtener la certificación de curso que tomaron el cual los estudiantes podrán verificar por vía telefónica si obtuvo la certificación y su originalidad.
+EXCEPCIONES:
+    1 Código de certificado incorrecto
+    2 Diferente nombre
+    3 Datos no ingresados en sistema
+ACTORES: Cliente, Administrador, Instructor.
+
+
+8 TITULO GESTION DE DATOS E INVENTARIOS
+DESCRIPCION A través de este se explica cómo es inventariado y procesado los datos que son tomados por el administrador, esto para poder contar en tiempo real con la cantidad de herramientas, materiales, locales, instructores y alumnos activos dentro de la institución.
+VERSION 3.0
+PRECONDICION La persona que se encarga de este sistema se encuentra en conocimiento total de lo que sucede dentro y fuera de la institución en todo lo que a esta convenga, tanto de los materiales utilizados y existentes, como las necesidades y deficiencia que se tienen para el llevar a cabo cada tarea y así cumplir con las exigencias que demanda cada instructor basado en las necesidades a suplir del cliente dentro de cada curso.
+DESARROLLO En este caso, el administrador es el que se encarga de captar los datos de todo lo que se necesita tener a la mano a diario en la empresa, comunicación con cada uno de los instructores en nuestra base, de igual manera con los alumnos, disponibilidad y materiales que tenemos en cada local para el desarrollo de cada clase, así como los materiales didácticos y herramientas que se emplean para el aprendizaje y desarrollo óptimo de cada clase que componen a su vez cada curso.
+EXCEPCIONES:
+(NO HAY EXCEPCIONES)    
+ACTORES: Cliente, Administrador, Instructor.
